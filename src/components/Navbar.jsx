@@ -1,4 +1,4 @@
-const headingArray = ['Home', 'About', 'Skills', 'Experience', 'Education', 'Projects'];
+import { headingArray } from '../constants';
 
 export default function Navbar(){
     return (

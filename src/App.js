@@ -4,6 +4,9 @@ import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import IntroImage from './components/IntroImage';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import React from 'react';
+import { SKILLS } from './constants';
 
 
 function App() {
@@ -21,14 +24,31 @@ function App() {
       </header>
 
       {/* About Section  */}
-      <section class="bg-light py-5" id="about">
-          <div class="container px-5">
-              <div class="row gx-5 justify-content-center">
-                  <div class="">
+      <section className="bg-light py-5" id="about">
+          <div className="container px-5">
+              <div className="row gx-5 justify-content-center">
+                  <div className="">
                       <AboutMe/>
                   </div>
               </div>
           </div>
+      </section>
+
+      {/* Skills Section */}
+      <section className="py-5" id="skills">
+                
+        <div className="row justify-content-center mt-5 m-0 ps-3 pe-3">
+
+          <div className="text-center mb-3">
+              <h2 className="display-5 fw-bolder"><span className="text-gradient d-inline">Skills</span></h2>
+          </div>
+                {Object.values(SKILLS).map((key, index) => (
+                  <Skills key={index} heading={key.title} skillsArray={key.content} icon={key.icon}/>
+                ))}
+                
+
+          </div>
+       
       </section>
 
 
