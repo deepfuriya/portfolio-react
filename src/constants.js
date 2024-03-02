@@ -6,6 +6,10 @@ import uncc from './images/logo/uncc.png';
 import scatterplot from './images/project-icon/scatterplot.png';
 import iPhoneify from './images/project-icon/trade-project.png';
 import message from './images/project-icon/message.png';
+import trip from './images/project-icon/trip.png';
+import weather from './images/project-icon/weather.png';
+import trivia from './images/project-icon/trivia.png';
+import fakeNews from './images/project-icon/fake-news.png';
 
 export const DATA = {
     LINKEDIN: "https://www.linkedin.com/in/deepfuriya/",
@@ -92,6 +96,12 @@ export const PROJECTS = {
             description: "TradeHub is a web application that facilitates item trading between users. Built using Node.js and Express.js, it integrates MongoDB for data storage. Users can make trade offers, add items to their watch list, and view their trading history. Security measures include XSS prevention, password hashing, and authentication request limiting.",
             icon: iPhoneify,
             link: "https://github.com/deepfuriya/tradehub"
+        },
+        {
+            title: "Fake New Detection on Tweets",
+            description: "This project harnesses Python and Django to sift through tweets using a sophisticated machine learning model. By integrating with the Twitter API, it evaluates the authenticity of news, distinguishing real from fake, and presents the analysis through an intuitive web interface.",
+            icon: fakeNews,
+            link: "https://github.com/deepfuriya/fake-news-detection"
         }
     ],
     mobile:[
@@ -100,6 +110,24 @@ export const PROJECTS = {
             description: "Developed a messaging app ensuring seamless, secure communication. Google Authentication protects accounts and sensitive data. Google Firestore provides uninterrupted service, keeping chats accessible. Communicate confidently, knowing privacy is safeguarded.",
             icon: message,
             link: "https://github.com/deepfuriya/messaging-app"
+        },
+        {
+            title: "Trip Manager",
+            description: "The Trip Manager app utilizes Google location services API and Google Firestore to provide secure login/signup using Firebase Authentication, accurate GPS-based location tracking, and secure data storage on Google Firebase Cloud. It offers live maps preview of trip details, integrating Google Maps for Android.",
+            icon: trip,
+            link: "https://github.com/deepfuriya/Trip-Manager"
+        },
+        {
+            title: "Weather App",
+            description: "The Weather App is an Android application that displays the current weather and 5-day forecast for various cities. It utilizes the Weather API for retrieving weather data. The app features city selection, an easy-to-read UI, and uses OkHttp for API calls and JSON parsing. Additionally, it incorporates the Picasso library for loading weather icons dynamically.",
+            icon: weather,
+            link: "https://github.com/deepfuriya/weather-app"
+        },
+        {
+            title: "Trivia Game Application",
+            description: "The Trivia Game Application is an Android app that allows users to play a trivia game. The JSON-formatted trivia questions are retrieved using HTTP connections and API queries. Using OkHttp, the app can parse JSON input and make API calls. In order to dynamically load graphics during gameplay, it also incorporates the Picasso library.",
+            icon: trivia,
+            link: "https://github.com/deepfuriya/trivia-application"
         }
     ]
 }
