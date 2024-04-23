@@ -1,0 +1,9 @@
+1. First make changes and commit it to the master branch
+
+2. Run npm run deploy - this will run on machine and make new changes published on the gh-pages branch 
+
+3. After that is done, it will change the Github Pages Settings where we can see deepfuriya.com
+
+4. Change the custom domain and if empty make it deepfuriya.com
+
+5. Wait for some time and we can see the changes on the server
