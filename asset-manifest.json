@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4816d000.css",
-    "main.js": "/static/js/main.06d6debd.js",
+    "main.js": "/static/js/main.b7748bc9.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/fake-news.png": "/static/media/fake-news.ab57953a8c5fc5c1ee13.png",
     "static/media/profile.png": "/static/media/profile.d2bf3ea172116542fb09.png",
@@ -9,7 +9,7 @@
     "static/media/trade-project.png": "/static/media/trade-project.9cb9bf97547102c647df.png",
     "static/media/scatterplot.png": "/static/media/scatterplot.9195d2d9b438c5707199.png",
     "static/media/usc.png": "/static/media/usc.d76e3d27cdefb82b6909.png",
-    "static/media/Deep_Rajesh_Furiya_Resume.pdf": "/static/media/Deep_Rajesh_Furiya_Resume.3742b27e4eaf3d6a4ba3.pdf",
+    "static/media/Deep_Rajesh_Furiya_Resume.pdf": "/static/media/Deep_Rajesh_Furiya_Resume.8f10b89022994be0593a.pdf",
     "static/media/top-10.png": "/static/media/top-10.b9e33136a66abd4012fb.png",
     "static/media/trip.png": "/static/media/trip.97ab468704e4104a8035.png",
     "static/media/unc-cci.png": "/static/media/unc-cci.c05cb57092a9449144a2.png",
@@ -20,11 +20,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.4816d000.css.map": "/static/css/main.4816d000.css.map",
-    "main.06d6debd.js.map": "/static/js/main.06d6debd.js.map",
+    "main.b7748bc9.js.map": "/static/js/main.b7748bc9.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4816d000.css",
-    "static/js/main.06d6debd.js"
+    "static/js/main.b7748bc9.js"
   ]
 }
