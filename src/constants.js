@@ -70,7 +70,7 @@ export const EDUCATION = {
         degree: "Masters in Computer Science",
         university: "University of North Carolina at Charlotte",
         duration: "Aug 2022 - May 2024",
-        gpa: "GPA: 3.83 ( On a Scale of 4.0 )",
+        gpa: "GPA: 3.83",
         link: "https://www.charlotte.edu/",
         logo: uncc
     },
@@ -78,7 +78,7 @@ export const EDUCATION = {
         degree: "Bachelor of Engineering in Computer Science & Engineering",
         university: "Mumbai University",
         duration: "Aug 2017 - July 2021",
-        gpa: "CGPI: 7.90 ( On a Scale of 10.0 )",
+        gpa: "CGPI: 7.90",
         link: "https://www.sakec.ac.in/cs/",
         logo: mu
     }
