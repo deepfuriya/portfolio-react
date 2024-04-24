@@ -10,6 +10,7 @@ import trip from './images/project-icon/trip.png';
 import weather from './images/project-icon/weather.png';
 import trivia from './images/project-icon/trivia.png';
 import fakeNews from './images/project-icon/fake-news.png';
+import tic_tac_toe from './images/project-icon/tic_tac_toe.png';
 
 export const DATA = {
     LINKEDIN: "https://www.linkedin.com/in/deepfuriya/",
@@ -85,6 +86,12 @@ export const EDUCATION = {
 
 export const PROJECTS = {
     web:[
+        {
+            title: "Tic-Tac-Toe React Game",
+            description: "This project is a simple Tic-Tac-Toe game built using React. It features a clean and interactive user interface, allowing two players to play the game on the same computer. The game is developed using React components and the useState hook for state management.",
+            icon: tic_tac_toe,
+            link: "https://github.com/deepfuriya/react-tic-tac-toe-game"
+        },
         {
             title: "Scatter Plot using D3.js",
             description: "Explore data relationships with an interactive scatter plot created using D3.js. Customize visuals, zoom, brush, and toggle data groups. Gain valuable insights and make informed decisions in a visually captivating way. Perfect for finance, healthcare, and social sciences.",
