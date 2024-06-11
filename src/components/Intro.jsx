@@ -25,14 +25,14 @@ export default function Intro() {
         </div>
 
         <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-          <a
+          {/* <a
             className="btn text-light btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
             style={{ backgroundColor: "#3267c2" }}
             target="_blank"
             href={resume}
           >
             Resume
-          </a>
+          </a> */}
           <a
             className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder"
             target="_blank"
