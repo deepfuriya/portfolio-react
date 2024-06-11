@@ -15,7 +15,7 @@ export default function Intro() {
         <div className="table-responsive">
           <div className="badge bg-gradient-primary-to-secondary text-white mb-2">
             <div className="text-uppercase">
-              SOFTWARE {`\u00A0`} DEVELOPER {`\u00A0`} &middot; {`\u00A0`} GRADUATE {`\u00A0`} STUDENT {`\u00A0`} AT {`\u00A0`} UNC {`\u00A0`} CHARLOTTE
+              FULL {`\u00A0`} STACK {`\u00A0`} DEVELOPER {`\u00A0`} &middot; {`\u00A0`} MASTERS {`\u00A0`} IN {`\u00A0`} COMPUTER {`\u00A0`} SCIENCE {`\u00A0`}
             </div>
           </div>
         </div>

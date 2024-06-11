@@ -15,16 +15,17 @@ import tic_tac_toe from './images/project-icon/tic_tac_toe.png';
 export const DATA = {
     LINKEDIN: "https://www.linkedin.com/in/deepfuriya/",
     GITHUB: "https://github.com/deepfuriya",
-    EMAIL: "dfuriya@uncc.edu"
+    EMAIL: "deepfuriya.df2@gmail.com"
 };
 
-export const headingArray = ['Home', 'About', 'Skills', 'Experience', 'Education', 'Projects'];
+//export const headingArray = ['Home', 'About', 'Skills', 'Experience', 'Education', 'Projects'];
+export const headingArray = ['Home', 'About', 'Skills', 'Education', 'Projects'];
 
 export const SKILLS = {
     programmingLanguages: {
         title: "Programming Languages",
         icon: 'bi-code-slash',
-        content: ["HTML & CSS", "Java / Kotlin", "JavaScript", "C / C++", "Python"]
+        content: ["HTML & CSS / React.js", "Java / Kotlin", "JavaScript", "C / C++", "Python"]
     },
     databases: {
         title: "Databases",
@@ -39,30 +40,30 @@ export const SKILLS = {
 };
 
 export const EXPERIENCE = {
-    ta: {
-        title: "Graduate Teaching Assistant",
-        duration: "Jan 2023 - Present",
-        location: "Charlotte, NC",
-        employer: "College of Computing & Informatics",
-        link: "https://cci.charlotte.edu/",
-        logo: cci
-    },
-    ra: {
-        title: "Research Assistant",
-        duration: "June 2023 - August 2023",
-        location: "Columbia, SC",
-        employer: "University of South Carolina",
-        link: "https://sc.edu/",
-        logo: usc
-    },
-    fullStackDev: {
-        title: "Full Stack Developer",
-        duration: "August 2021 - July 2022",
-        location: "Mumbai, India",
-        employer: "Top 10 Mobiles",
-        link: "https://top10mobiles.com/",
-        logo: top10
-    }
+    // ta: {
+    //     title: "Graduate Teaching Assistant",
+    //     duration: "Jan 2023 - Present",
+    //     location: "Charlotte, NC",
+    //     employer: "College of Computing & Informatics",
+    //     link: "https://cci.charlotte.edu/",
+    //     logo: cci
+    // },
+    // ra: {
+    //     title: "Research Assistant",
+    //     duration: "June 2023 - August 2023",
+    //     location: "Columbia, SC",
+    //     employer: "University of South Carolina",
+    //     link: "https://sc.edu/",
+    //     logo: usc
+    // },
+    // fullStackDev: {
+    //     title: "Full Stack Developer",
+    //     duration: "August 2021 - July 2022",
+    //     location: "Mumbai, India",
+    //     employer: "Top 10 Mobiles",
+    //     link: "https://top10mobiles.com/",
+    //     logo: top10
+    // }
 };
 
 export const EDUCATION = {
