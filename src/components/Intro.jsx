@@ -1,5 +1,5 @@
 import { DATA } from "../constants";
-import resume from '../resume/Deep_Rajesh_Furiya_Resume.pdf';
+//import resume from '../resume/Deep_Rajesh_Furiya_Resume.pdf';
 
 
 export default function Intro() {
